@@ -1,0 +1,48 @@
+@import url(http://fonts.googleapis.com/css?family=Simonetta);
+@import url(http://fonts.googleapis.com/css?family=Fanwood+Text);
+
+body, input, button, textarea {
+    font-family: "Helvetica Neue","Lucida Grande",Helvetica,Tahoma,Verdana,Arial,sans-serif;
+    color: #333;
+    background-color: "#ebeff9";
+}
+
+body {
+    min-height: 400px;
+    height: auto;
+    background: #bfdfff; /* Not supported browsers */
+    background: -webkit-gradient(linear, left top, left bottom, from(#bfdfff),to(#ffffff)) no-repeat; /* Chrome */
+    background: -moz-linear-gradient(top, #bfdfff, #ffffff) no-repeat;/* Firefox用 */
+    background: -o-linear-gradient(top, #bfdfff, #ffffff) no-repeat; /* Opera */
+}
+
+#content {
+    background-color: white;
+    border: 4px solid #B5C7DE;
+    border-radius: 12px;
+    margin: 40px auto 20px;
+    padding: 8px;
+    width: 600px;
+}
+
+div.status {
+    text-align: center;
+    color: #444;
+    font: 30px "Fanwood Text";
+}
+
+div.pincode {
+    color: #8A8A88;
+    font: 18px "Fanwood Text";
+    padding: 5px 2px;
+
+}
+
+div.pincode_key {
+    border-radius: 5px;
+    padding: 6px;
+    background-color: #E8E9E9;
+    color: #333;
+    text-align: center;
+    font: 24px "Simonetta";
+}
